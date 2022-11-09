@@ -10,6 +10,8 @@ scanner(
             'sonar.sources': '../solucredit-app-jasper/src/main/java',
             'sonar.login': 'd9618251fc7ab20cb7461e22831ddde5ca2050bc',
             'sonar.projectBaseDir': '../solucredit-app-jasper',
+            'sonar.language': 'java',
+            'sonar.java.binaries': '**/target/classes'
         }
     },
     () => process.exit()
