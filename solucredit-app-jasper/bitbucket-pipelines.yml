@@ -1,0 +1,16 @@
+image: maven:3-jdk-11
+pipelines:
+  branches:
+    '{master,release/master,release/qa}':
+      - step:
+          name: "Build and push images"
+          script:
+            - mvn -B verify
+            - docker login --username $DOCKER_USER --password $DOCKER_PASSWORD
+            - BRANCH_NAME=$(echo $BITBUCKET_BRANCH | sed "s/[^a-zA-Z0-9]/-/g")
+            - TAG_NAME=$BRANCH_NAME.$(date +%Y%m%d.%H%M%S)
+            - IMAGE_NAME=$DOCKER_USER/$DOCKER_PROJECT:$TAG_NAME
+            - docker build -t $IMAGE_NAME .
+            - docker push $IMAGE_NAME 
+          services:
+            - docker
