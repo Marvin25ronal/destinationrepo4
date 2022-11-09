@@ -1,0 +1,7 @@
+sonar{
+    sonarDirectory: "/sonar",
+    command: [
+        "npm install",
+        "npm run sonar"
+    ]
+}
