@@ -2,5 +2,5 @@ projectKey=ejemplo
 serverUrl=http://sonar-qb-prod.isoft-ste.com
 serverVersion=9.3.0.51899
 dashboardUrl=http://sonar-qb-prod.isoft-ste.com/dashboard?id=ejemplo
-ceTaskId=AYSqOe_M01UOo9duZRTL
-ceTaskUrl=http://sonar-qb-prod.isoft-ste.com/api/ce/task?id=AYSqOe_M01UOo9duZRTL
+ceTaskId=AYSqREDo01UOo9duZRTN
+ceTaskUrl=http://sonar-qb-prod.isoft-ste.com/api/ce/task?id=AYSqREDo01UOo9duZRTN
