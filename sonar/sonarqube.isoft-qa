@@ -1,7 +1,9 @@
 sonar{
+    sonarProjectName: "ejemplo-sidra-pa",
     sonarDirectory: "/sonar",
     command: [
         "npm install",
         "npm run sonar"
-    ]
+    ],
+    report:true
 }
