@@ -39,7 +39,7 @@ const llenar_formulario = async (done) => {
         await driver.findElement(By.xpath('//*[@id="HTMLFormElements"]/table/tbody/tr[5]/td/input[3]')).click();
         await driver.findElement(By.xpath('//*[@id="HTMLFormElements"]/table/tbody/tr[5]/td/input[2]')).click();
         await driver.findElement(By.xpath('//*[@id="HTMLFormElements"]/table/tbody/tr[6]/td/input[2]')).click();
-        await driver.sleep(10000)
+        //await driver.sleep(10000)
         let number = Math.floor(Math.random() * 4) + 1
         console.log(number)
         await driver.findElement(By.xpath('//*[@id="HTMLFormElements"]/table/tbody/tr[7]/td/select/option[' + number + ']')).click();
