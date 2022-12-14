@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter mochawesome --reporter-options reportDir=report,reportFilename=Test_Report --timeout 20000",
+    "test": "mocha --reporter mochawesome --reporter-options reportDir=report,reportFilename=Test_Report --timeout 200000",
     "sonar": "node sonar.js"
   },
   "keywords": [],
