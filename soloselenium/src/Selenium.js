@@ -33,11 +33,13 @@ const llenar_formulario = async (done) => {
         await driver.findElement(By.name('username')).sendKeys('Marvin');
         await driver.findElement(By.name('password')).sendKeys('123')
         await driver.findElement(By.name('comments')).sendKeys('Este es un comentario')
+        await driver.sleep(10000)
         //await driver.findElement(By.name('filename')).sendKeys('E:\\Datos\\Trabajo\\capacitacion\\node-mocha-chai\\persona1.jpg')
         await driver.findElement(By.xpath('//*[@id="HTMLFormElements"]/table/tbody/tr[5]/td/input[1]')).click();
         await driver.findElement(By.xpath('//*[@id="HTMLFormElements"]/table/tbody/tr[5]/td/input[3]')).click();
         await driver.findElement(By.xpath('//*[@id="HTMLFormElements"]/table/tbody/tr[5]/td/input[2]')).click();
         await driver.findElement(By.xpath('//*[@id="HTMLFormElements"]/table/tbody/tr[6]/td/input[2]')).click();
+        await driver.sleep(10000)
         let number = Math.floor(Math.random() * 4) + 1
         console.log(number)
         await driver.findElement(By.xpath('//*[@id="HTMLFormElements"]/table/tbody/tr[7]/td/select/option[' + number + ']')).click();
