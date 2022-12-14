@@ -2,14 +2,14 @@
   "stats": {
     "suites": 6,
     "tests": 10,
-    "passes": 9,
+    "passes": 10,
     "pending": 0,
-    "failures": 1,
-    "start": "2022-12-14T20:28:07.285Z",
-    "end": "2022-12-14T20:28:27.306Z",
-    "duration": 20021,
+    "failures": 0,
+    "start": "2022-12-14T20:28:59.748Z",
+    "end": "2022-12-14T20:29:22.154Z",
+    "duration": 22406,
     "testsRegistered": 10,
-    "passPercent": 90,
+    "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "f64f3b53-f4a9-4105-b53a-e232d5cb1b61",
+      "uuid": "c61ca6de-db99-4f4b-ae90-e9ea236f5a59",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "d2f4331b-ce04-4954-9750-56a5d069c8a7",
+          "uuid": "be940fdf-c5f5-4df7-b7f7-22773d8f793f",
           "title": "Prueba de selenium",
           "fullFile": "D:\\Trabajo\\Proyectos\\Entradas\\destinationrepo4\\soloselenium\\test\\selenium.test.js",
           "file": "\\test\\selenium.test.js",
@@ -37,40 +37,36 @@
             {
               "title": "Formulario de login",
               "fullTitle": "Prueba de selenium Formulario de login",
-              "timedOut": true,
-              "duration": 20013,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "timedOut": false,
+              "duration": 22396,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
               "code": "try {\n    selenium.llenar_formulario(done);\n} catch (err) {\n    throw err;\n}",
-              "err": {
-                "message": "Error: Timeout of 20000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (D:\\Trabajo\\Proyectos\\Entradas\\destinationrepo4\\soloselenium\\test\\selenium.test.js)",
-                "estack": "Error: Timeout of 20000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (D:\\Trabajo\\Proyectos\\Entradas\\destinationrepo4\\soloselenium\\test\\selenium.test.js)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
-                "diff": null
-              },
-              "uuid": "d2cea707-eae2-4d25-b959-012f765c9c56",
-              "parentUUID": "d2f4331b-ce04-4954-9750-56a5d069c8a7",
+              "err": {},
+              "uuid": "6af116bb-88ea-44a7-83e3-2ea167128763",
+              "parentUUID": "be940fdf-c5f5-4df7-b7f7-22773d8f793f",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [],
-          "failures": [
-            "d2cea707-eae2-4d25-b959-012f765c9c56"
+          "passes": [
+            "6af116bb-88ea-44a7-83e3-2ea167128763"
           ],
+          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 20013,
+          "duration": 22396,
           "root": false,
           "rootEmpty": false,
-          "_timeout": 20000
+          "_timeout": 200000
         },
         {
-          "uuid": "10133532-3bbc-4352-b23a-530f7ea265e7",
+          "uuid": "c8791172-8154-4ff0-a729-4d2711c89c10",
           "title": "Prueba 1",
           "fullFile": "D:\\Trabajo\\Proyectos\\Entradas\\destinationrepo4\\soloselenium\\test\\test.test.js",
           "file": "\\test\\test.test.js",
@@ -79,7 +75,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "613b3806-4eff-4840-bd8a-63c1acbd0c33",
+              "uuid": "cafafc94-ed7a-4849-8773-bc0f789f2e3a",
               "title": "Suma",
               "fullFile": "D:\\Trabajo\\Proyectos\\Entradas\\destinationrepo4\\soloselenium\\test\\test.test.js",
               "file": "\\test\\test.test.js",
@@ -99,15 +95,15 @@
                   "context": null,
                   "code": "assert.equal(1 + 1, 2);",
                   "err": {},
-                  "uuid": "b249739d-078e-4a66-94c3-feec7427e4cd",
-                  "parentUUID": "613b3806-4eff-4840-bd8a-63c1acbd0c33",
+                  "uuid": "3e2c3dbe-f6c0-4912-98da-316218726413",
+                  "parentUUID": "cafafc94-ed7a-4849-8773-bc0f789f2e3a",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "b249739d-078e-4a66-94c3-feec7427e4cd"
+                "3e2c3dbe-f6c0-4912-98da-316218726413"
               ],
               "failures": [],
               "pending": [],
@@ -115,7 +111,7 @@
               "duration": 0,
               "root": false,
               "rootEmpty": false,
-              "_timeout": 20000
+              "_timeout": 200000
             }
           ],
           "passes": [],
@@ -125,10 +121,10 @@
           "duration": 0,
           "root": false,
           "rootEmpty": false,
-          "_timeout": 20000
+          "_timeout": 200000
         },
         {
-          "uuid": "8e117f47-40dc-4ca6-9cb3-168ac825fcd3",
+          "uuid": "8dbb77d8-7a63-4c13-9dbf-4bb14bc773f8",
           "title": "Prueba con chai",
           "fullFile": "D:\\Trabajo\\Proyectos\\Entradas\\destinationrepo4\\soloselenium\\test\\test2.test.js",
           "file": "\\test\\test2.test.js",
@@ -137,7 +133,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "eb6c7aea-c12c-4053-93cb-ed18c2de8c79",
+              "uuid": "7ffed3da-c694-41b5-8bb7-e6946a15a056",
               "title": "Prueba con expect",
               "fullFile": "D:\\Trabajo\\Proyectos\\Entradas\\destinationrepo4\\soloselenium\\test\\test2.test.js",
               "file": "\\test\\test2.test.js",
@@ -148,7 +144,7 @@
                   "title": "Deberia de retornar 4",
                   "fullTitle": "Prueba con chai Prueba con expect Deberia de retornar 4",
                   "timedOut": false,
-                  "duration": 1,
+                  "duration": 0,
                   "state": "passed",
                   "speed": "fast",
                   "pass": true,
@@ -157,8 +153,8 @@
                   "context": null,
                   "code": "expect(1 + 3).to.equal(4)",
                   "err": {},
-                  "uuid": "878084e8-0a2d-4a4b-b685-31d98726d500",
-                  "parentUUID": "eb6c7aea-c12c-4053-93cb-ed18c2de8c79",
+                  "uuid": "3eaaa13b-21a5-47ae-a550-75f291733d1c",
+                  "parentUUID": "7ffed3da-c694-41b5-8bb7-e6946a15a056",
                   "isHook": false,
                   "skipped": false
                 },
@@ -175,8 +171,8 @@
                   "context": null,
                   "code": "const suma = 1 + 3;\nsuma.should.be.a('number')",
                   "err": {},
-                  "uuid": "c73fdf04-4c57-41a5-a723-a015a64d805b",
-                  "parentUUID": "eb6c7aea-c12c-4053-93cb-ed18c2de8c79",
+                  "uuid": "e7e4dcf2-60ec-4842-9db0-c9e49177201b",
+                  "parentUUID": "7ffed3da-c694-41b5-8bb7-e6946a15a056",
                   "isHook": false,
                   "skipped": false
                 },
@@ -193,28 +189,28 @@
                   "context": null,
                   "code": "assert.equal(1 + 3, 4)",
                   "err": {},
-                  "uuid": "0303692d-38d4-40ee-b20e-bdb9d2aa6b75",
-                  "parentUUID": "eb6c7aea-c12c-4053-93cb-ed18c2de8c79",
+                  "uuid": "35798555-9423-40ea-9f6e-cc8c2a24cee5",
+                  "parentUUID": "7ffed3da-c694-41b5-8bb7-e6946a15a056",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "878084e8-0a2d-4a4b-b685-31d98726d500",
-                "c73fdf04-4c57-41a5-a723-a015a64d805b",
-                "0303692d-38d4-40ee-b20e-bdb9d2aa6b75"
+                "3eaaa13b-21a5-47ae-a550-75f291733d1c",
+                "e7e4dcf2-60ec-4842-9db0-c9e49177201b",
+                "35798555-9423-40ea-9f6e-cc8c2a24cee5"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 1,
+              "duration": 0,
               "root": false,
               "rootEmpty": false,
-              "_timeout": 20000
+              "_timeout": 200000
             },
             {
-              "uuid": "05f25c50-b1c5-4504-b127-1747c89578cd",
+              "uuid": "36443bcf-df54-433a-92ca-0314f0e80fda",
               "title": "Prueba de metodos de operaciones",
               "fullFile": "D:\\Trabajo\\Proyectos\\Entradas\\destinationrepo4\\soloselenium\\test\\test2.test.js",
               "file": "\\test\\test2.test.js",
@@ -225,7 +221,7 @@
                   "title": "Prueba de suma",
                   "fullTitle": "Prueba con chai Prueba de metodos de operaciones Prueba de suma",
                   "timedOut": false,
-                  "duration": 0,
+                  "duration": 1,
                   "state": "passed",
                   "speed": "fast",
                   "pass": true,
@@ -234,8 +230,8 @@
                   "context": null,
                   "code": "assert.equal(operaciones.suma(1, 3), 4);",
                   "err": {},
-                  "uuid": "7cc028e7-4bc7-4789-acd2-23f56517d1fa",
-                  "parentUUID": "05f25c50-b1c5-4504-b127-1747c89578cd",
+                  "uuid": "c8d1705b-1156-4ac1-9768-357ec5db3cc5",
+                  "parentUUID": "36443bcf-df54-433a-92ca-0314f0e80fda",
                   "isHook": false,
                   "skipped": false
                 },
@@ -252,8 +248,8 @@
                   "context": null,
                   "code": "assert.equal(operaciones.resta(1, 3), -2);",
                   "err": {},
-                  "uuid": "7e5c36e7-d7cc-4e6f-80a7-8daac76546d9",
-                  "parentUUID": "05f25c50-b1c5-4504-b127-1747c89578cd",
+                  "uuid": "d4e17805-9c3c-46c4-8111-2942151341ab",
+                  "parentUUID": "36443bcf-df54-433a-92ca-0314f0e80fda",
                   "isHook": false,
                   "skipped": false
                 },
@@ -270,8 +266,8 @@
                   "context": null,
                   "code": "assert.equal(operaciones.multiplicacion(1, 3), 3);",
                   "err": {},
-                  "uuid": "4fd700ea-4628-4c45-83a1-1310efcddbde",
-                  "parentUUID": "05f25c50-b1c5-4504-b127-1747c89578cd",
+                  "uuid": "553eb8a8-f656-41c9-b66a-0b3ed18b5508",
+                  "parentUUID": "36443bcf-df54-433a-92ca-0314f0e80fda",
                   "isHook": false,
                   "skipped": false
                 },
@@ -288,8 +284,8 @@
                   "context": null,
                   "code": "assert.equal(operaciones.division(9, 3), 3);",
                   "err": {},
-                  "uuid": "5a63bf10-55c1-4665-bcf9-ba28c55dde83",
-                  "parentUUID": "05f25c50-b1c5-4504-b127-1747c89578cd",
+                  "uuid": "0bdc91bb-53f7-44eb-8ad9-41104cdad51a",
+                  "parentUUID": "36443bcf-df54-433a-92ca-0314f0e80fda",
                   "isHook": false,
                   "skipped": false
                 },
@@ -306,27 +302,27 @@
                   "context": null,
                   "code": "assert.equal(operaciones.modulo(1, 3), 1);",
                   "err": {},
-                  "uuid": "67434065-29a1-44b2-9bcc-32080a34d0f1",
-                  "parentUUID": "05f25c50-b1c5-4504-b127-1747c89578cd",
+                  "uuid": "cf834838-3336-42ad-aa69-eaa9863f8816",
+                  "parentUUID": "36443bcf-df54-433a-92ca-0314f0e80fda",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "7cc028e7-4bc7-4789-acd2-23f56517d1fa",
-                "7e5c36e7-d7cc-4e6f-80a7-8daac76546d9",
-                "4fd700ea-4628-4c45-83a1-1310efcddbde",
-                "5a63bf10-55c1-4665-bcf9-ba28c55dde83",
-                "67434065-29a1-44b2-9bcc-32080a34d0f1"
+                "c8d1705b-1156-4ac1-9768-357ec5db3cc5",
+                "d4e17805-9c3c-46c4-8111-2942151341ab",
+                "553eb8a8-f656-41c9-b66a-0b3ed18b5508",
+                "0bdc91bb-53f7-44eb-8ad9-41104cdad51a",
+                "cf834838-3336-42ad-aa69-eaa9863f8816"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 0,
+              "duration": 1,
               "root": false,
               "rootEmpty": false,
-              "_timeout": 20000
+              "_timeout": 200000
             }
           ],
           "passes": [],
@@ -336,7 +332,7 @@
           "duration": 0,
           "root": false,
           "rootEmpty": false,
-          "_timeout": 20000
+          "_timeout": 200000
         }
       ],
       "passes": [],
@@ -346,7 +342,7 @@
       "duration": 0,
       "root": true,
       "rootEmpty": true,
-      "_timeout": 20000
+      "_timeout": 200000
     }
   ],
   "meta": {
