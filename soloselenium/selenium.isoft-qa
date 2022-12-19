@@ -4,5 +4,5 @@ selenium{
         "npm install",
         "npm run test"
     ],
-    reportDir:"./report"
+    reportDir:"./soloselenium/report"
 }
