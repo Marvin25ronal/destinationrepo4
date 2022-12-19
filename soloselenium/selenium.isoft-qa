@@ -3,6 +3,6 @@ selenium{
     command:[
         "npm install",
         "npm run test"
-    ]
+    ],
     reportDir:"./report"
 }
