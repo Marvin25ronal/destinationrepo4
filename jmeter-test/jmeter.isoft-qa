@@ -1,5 +1,5 @@
 jmeter{
-    logFile: "./jmeter-test/Salida.csv",
+    logFile: "/jmeter-test/Salida.csv",
     webReport: "./jmeter-test/salida-html",
     jmeterFile: "./jmeter-test/Ejemplo.jmx"
 }
