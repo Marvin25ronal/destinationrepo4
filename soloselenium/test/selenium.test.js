@@ -2,7 +2,7 @@ const assert = require('chai').assert;
 const expect = require('chai').expect;
 require('chai').should;
 
-const selenium = require('../src/selenium');
+const selenium = require('../src/selenium.js');
 
 
 describe('Prueba de selenium', () => {
