@@ -1,6 +1,6 @@
 const assert = require('chai').assert;
 const expect = require('chai').expect;
-const operaciones = require('../src/operaciones.js');
+const operaciones = require('../src/Operaciones.js');
 require('chai').should();
 
 describe('Prueba con chai', () => {
